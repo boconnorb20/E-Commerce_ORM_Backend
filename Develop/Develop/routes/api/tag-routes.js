@@ -8,7 +8,7 @@ router.get('/', async (req, res) => {
   // be sure to include its associated Product data
   try {
     const data = await Tag.findAll({
-      include: [{model: Product }],
+      include: [{ model: Product }],
 
     });
     res.status(200).json(data);
@@ -73,7 +73,7 @@ router.put('/:id', async (req, res) => {
   }
 });
 
-router.delete('/:id', (req, res) => {
+router.delete('/:id', async (req, res) => {
   // delete on tag by its `id` value
   try {
     const data = await Tag.destroy({
