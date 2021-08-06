@@ -52,7 +52,7 @@ router.put('/:id', async (req, res) => {
       { catagory_name: req.body.catagory_name,
       },
       {
-        return: true,
+        returning: true,
         where: {
           id: req.params.id,
         }, 
