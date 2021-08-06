@@ -18,7 +18,11 @@
   ## Contributing Members
   Sync Sequelize to the Database on Server Start
   ## Testing 
-   Create the code needed in server.js to sync the Sequelize models to the MySQL database on server start.
+  
+
+https://user-images.githubusercontent.com/80371646/128460165-d821bb35-bec2-41dd-8dcf-bde85f07447d.mp4
+
+  Create the code needed in server.js to sync the Sequelize models to the MySQL database on server start.
   ## Questions/Inquiries 
   ### GitHub Profile
   [GitHub Profile](http://github.com/boconnorb20)
